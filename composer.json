@@ -1,0 +1,19 @@
+{
+    "name": "bieproject/belajar_php_composer_library",
+    "description": "Belajar Membuat Composer Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BieProject\\Library\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Farabie",
+            "email": "farabie024@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
