@@ -3,7 +3,7 @@
 namespace BieProject\Library;
 
 class Customer {
-    public function __construct(private string $name) {
+    public function __construct(private string $name = "Guest") {
 
     }
 
